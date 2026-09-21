@@ -1,0 +1,232 @@
+ Downloading crates ...
+  Downloaded core_affinity v0.8.3
+  Downloaded temp-dir v0.2.0
+  Downloaded dinghy-test v0.8.6
+   Compiling syn v3.0.5
+    Checking serde_core v1.0.229
+    Checking smallvec v1.16.1
+    Checking bytemuck v1.25.2
+    Checking hashbrown v0.16.1
+    Checking page_size v0.6.0
+    Checking anes v0.1.6
+    Checking parking_lot_core v0.9.12
+    Checking num-complex v0.4.6
+    Checking oorandom v11.1.5
+    Checking hashbrown v0.17.1
+    Checking parking_lot v0.12.5
+    Checking num_cpus v1.17.0
+    Checking ndarray v0.17.2
+    Checking rustfft v6.4.1
+    Checking py_literal v0.4.0
+    Checking indexmap v2.14.2
+    Checking qoi v0.4.1
+    Checking core_affinity v0.8.3
+    Checking tokio v1.53.1
+    Checking zip v6.0.0
+    Checking bitflags v2.13.2
+    Checking rustix v1.1.4
+    Checking serde_json v1.0.151
+    Checking erased-serde v0.4.10
+    Checking raw-cpuid v11.6.0
+    Checking xattr v1.6.1
+    Checking tar v0.4.46
+    Checking tempfile v3.27.0
+    Checking rusty-fork v0.3.1
+    Checking png v0.18.1
+    Checking proptest v1.11.0
+    Checking ndarray-npy v0.10.0
+    Checking tracing v0.1.44
+    Checking pulp v0.22.3
+    Checking hyper v1.11.1
+    Checking flatbuffers v25.12.19
+    Checking form_urlencoded v1.2.2
+    Checking tower v0.5.3
+    Checking tokio-rustls v0.26.5
+    Checking approx v0.5.1
+    Checking dinghy-test v0.8.6
+    Checking temp-dir v0.2.0
+    Checking monostate v0.1.18
+    Checking thiserror v1.0.69
+    Checking hyper-util v0.1.20
+    Checking onig v6.5.3
+    Checking unicode-normalization-alignments v0.1.12
+    Checking readings-probe v0.1.8
+    Checking fs-err v3.3.1
+    Checking webpki-roots v1.0.9
+    Checking scan_fmt v0.2.6
+    Checking home v0.5.12
+    Checking hyper-rustls v0.27.9
+    Checking exr v1.74.2
+   Compiling serde_derive v1.0.229
+   Compiling clap_derive v4.6.7
+   Compiling thiserror-impl v2.0.20
+   Compiling zerovec-derive v0.11.6
+   Compiling displaydoc v0.2.7
+    Checking zerotrie v0.2.5
+    Checking zerovec v0.11.8
+    Checking tinystr v0.8.4
+    Checking icu_locale_core v2.3.0
+    Checking potential_utf v0.1.6
+    Checking icu_collections v2.3.0
+    Checking icu_provider v2.3.1
+    Checking icu_normalizer v2.3.0
+    Checking icu_properties v2.3.0
+    Checking thiserror v2.0.20
+    Checking idna_adapter v1.2.2
+    Checking av-scenechange v0.14.1
+    Checking idna v1.1.0
+    Checking url v2.5.8
+    Checking rav1e v0.8.1
+    Checking tower-http v0.6.11
+    Checking reqwest v0.13.5
+    Checking clap v4.6.7
+   Compiling serde v1.0.229
+    Checking string-interner v0.20.0
+    Checking tinytemplate v1.2.1
+    Checking ciborium v0.2.2
+    Checking tract-api v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/api)
+   Compiling minijinja v2.24.0
+    Checking tract-data v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/data)
+   Compiling basic-toml v0.1.10
+    Checking criterion v0.8.2
+   Compiling askama_parser v0.16.1
+    Checking ravif v0.13.0
+    Checking image v0.25.10
+    Checking ahash v0.8.12
+    Checking dary_heap v0.3.9
+    Checking spm_precompiled v0.1.4
+    Checking compact_str v0.9.1
+    Checking ron v0.12.2
+    Checking tokenizers v0.23.2
+   Compiling askama_derive v0.16.1
+   Compiling tract-linalg v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/linalg)
+   Compiling askama_macros v0.16.1
+    Checking askama v0.16.1
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+   --> linalg/src/x86_64/mmm.rs:427:37
+    |
+427 |         (DatumType::I32, _) => Some(&mmm::avx2_mmm_i32_8x8.name.as_str()),
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change this to: `mmm::avx2_mmm_i32_8x8.name.as_str()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+    = note: `#[warn(clippy::needless_borrow)]` on by default
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+  --> linalg/src/arm32/mod.rs:50:23
+   |
+50 |             _ => Some(&armv7neon::armv7neon_mmm_f32_32x1_cortexa7.name.as_str()),
+   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change this to: `armv7neon::armv7neon_mmm_f32_32x1_cortexa7.name.as_str()`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+  --> linalg/src/arm32/mod.rs:56:23
+   |
+56 |             _ => Some(&armv7neon::armv7neon_mmm_f32_32x1_cortexa9.name.as_str()),
+   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change this to: `armv7neon::armv7neon_mmm_f32_32x1_cortexa9.name.as_str()`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+  --> linalg/src/arm32/mod.rs:58:19
+   |
+58 |         _ => Some(&armv7neon::armv7neon_mmm_f32_32x1_generic.name.as_str()),
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change this to: `armv7neon::armv7neon_mmm_f32_32x1_generic.name.as_str()`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+  --> linalg/src/arm32/mod.rs:83:43
+   |
+83 |         (DatumType::I32, Some(1)) => Some(&armv7neon::armv7neon_mmm_i32_32x1.name.as_str()),
+   |                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change this to: `armv7neon::armv7neon_mmm_i32_32x1.name.as_str()`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+  --> linalg/src/arm32/mod.rs:84:37
+   |
+84 |         (DatumType::I32, _) => Some(&armv7neon::armv7neon_mmm_i32_8x4.name.as_str()),
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change this to: `armv7neon::armv7neon_mmm_i32_8x4.name.as_str()`
+   |
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+
+warning: `tract-linalg` (lib) generated 6 warnings (run `cargo clippy --fix --lib -p tract-linalg -- ` to apply 6 suggestions)
+    Checking tract-core v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/core)
+warning: `tract-linalg` (lib) generated 1 warning (1 duplicate)
+    Checking tract-nnef v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/nnef)
+    Checking tract-hir v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/hir)
+    Checking infra v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/infra)
+    Checking tract-tflite v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/tflite)
+    Checking tract-transformers v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/transformers)
+    Checking tract-pulse-opl v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/pulse-opl)
+    Checking tract-nnef-resources v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/nnef/nnef-resources)
+    Checking tfl-mobilenet-v2-q v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/harness/tfl-mobilenet-v2-q)
+    Checking example-tflite-mobilenet-v3 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/tflite-mobilenet-v3)
+    Checking nnef-inceptionv3 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/harness/nnef-inceptionv3)
+    Checking tract-pulse v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/pulse)
+    Checking tract-gpu v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/gpu)
+    Checking suite-unit v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/suite-unit)
+warning: `tract-linalg` (lib test) generated 6 warnings (6 duplicates)
+    Checking tract-extra v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/extra)
+    Checking tract-onnx-opl v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/onnx-opl)
+    Checking tract-cuda v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/cuda)
+    Checking tract-tensorflow v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/tensorflow)
+    Checking tract-onnx v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/onnx)
+    Checking suite-pulse v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/suite-pulse)
+    Checking tf-inceptionv3 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/harness/tf-inceptionv3)
+    Checking example-tensorflow-mobilenet-v2 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/tensorflow-mobilenet-v2)
+    Checking tf-mobilenet-v2 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/harness/tf-mobilenet-v2)
+    Checking tract-nnef-cli v0.21.8-pre (/home/hosi/churin/.tools/tract-opt/nnef/cli)
+    Checking tract-libcli v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/libcli)
+    Checking tract v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/api/rs)
+    Checking suite-onnx v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/suite-onnx)
+    Checking tract-ffi v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/api/ffi)
+    Checking example-nnef-mobilenet-v2 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/nnef-mobilenet-v2)
+    Checking example-onnx-mobilenet-v2 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/onnx-mobilenet-v2)
+    Checking face_similarity_arcface_onnx v0.1.0 (/home/hosi/churin/.tools/tract-opt/examples/face_similarity_arcface_onnx)
+    Checking example-pytorch-resnet v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/pytorch-resnet)
+    Checking keras-tract-tf2 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/keras-tract-tf2)
+    Checking face_detection_yolov8onnx_example v0.1.0 (/home/hosi/churin/.tools/tract-opt/examples/face_detection_yolov8onnx_example)
+    Checking example-dump-nnef-mobilenet-v2 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/nnef-dump-mobilenet-v2)
+    Checking pytorch-albert-v2 v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/examples/pytorch-albert-v2)
+    Checking tract-cli v0.23.9-pre (/home/hosi/churin/.tools/tract-opt/cli)
+warning: this function has too many arguments (8/7)
+   --> cli/src/hwbench.rs:388:1
+    |
+388 | / fn bench_shape(
+389 | |     dt: DatumType,
+390 | |     m: usize,
+391 | |     k: usize,
+...   |
+396 | |     include_generic: bool,
+397 | | ) -> TractResult<ShapeResult> {
+    | |_____________________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+    = note: `#[warn(clippy::too_many_arguments)]` on by default
+
+warning: `tract-cli` (bin "tract") generated 1 warning
+warning: `tract-cli` (bin "tract" test) generated 1 warning (1 duplicate)
+warning: this function has too many arguments (9/7)
+   --> transformers/src/ops/gdn_recurrent.rs:214:5
+    |
+214 | /     fn run(
+215 | |         s_len: usize,
+216 | |         heads: usize,
+217 | |         width: usize,
+...   |
+223 | |         state: &Tensor,
+224 | |     ) -> TractResult<(Tensor, Tensor)> {
+    | |______________________________________^
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#too_many_arguments
+    = note: `#[warn(clippy::too_many_arguments)]` on by default
+
+warning: `tract-transformers` (lib test) generated 1 warning
+   Compiling test-onnx-core v0.20.7-pre (/home/hosi/churin/.tools/tract-opt/test-rt/test-onnx-core)
+   Compiling test-unit-core v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/test-unit-core)
+   Compiling test-pulse-core v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/test-pulse-core)
+   Compiling test-f16 v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/test-f16)
+   Compiling test-nnef-cycle v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/test-nnef-cycle)
+    Finished `dev` profile [unoptimized] target(s) in 52.20s

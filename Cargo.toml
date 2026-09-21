@@ -1,0 +1,13 @@
+[package]
+name = "deconv-locality-bench"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tract-core = { path = "tract/core" }
+
+[profile.release]
+debug = 0
+incremental = false
+
+[workspace]

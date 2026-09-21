@@ -1,0 +1,114 @@
+   Compiling suite-unit v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/suite-unit)
+   Compiling test-unit-core v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/test-unit-core)
+    Finished `release` profile [optimized] target(s) in 2m 32s
+     Running unittests src/lib.rs (/home/hosi/churin/results/oss/tract_deconv_locality_20260921/target/release/deps/test_unit_core-b356c65cd980b68b)
+
+running 99 tests
+test decluttered::deconv::bias_0 ... ok
+test decluttered::deconv::bias_1 ... ok
+test decluttered::deconv::bias_2 ... ok
+test decluttered::deconv::bias_group_0 ... ok
+test decluttered::deconv::channel_0 ... ok
+test decluttered::deconv::chw_rectangular_same ... ok
+test decluttered::deconv::foo ... ok
+test decluttered::deconv::geo_0 ... ok
+test decluttered::deconv::group_0 ... ok
+test decluttered::deconv::group_1 ... ok
+test decluttered::deconv::group_2 ... ok
+test decluttered::deconv::group_3 ... ok
+test decluttered::deconv::group_4 ... ok
+test decluttered::deconv::group_hwio_0 ... ok
+test decluttered::deconv::hwc_0 ... ok
+test decluttered::deconv::hwio_0 ... ok
+test decluttered::deconv::issue_512_simplified ... ok
+test decluttered::deconv::issue_optim_2d ... ok
+test decluttered::deconv::nchw_2x2_s2_5x6 ... ok
+test decluttered::deconv::nchw_2x2_s2_wide ... ok
+test decluttered::deconv::nchw_rectangular ... ok
+test decluttered::deconv::nchw_rectangular_grouped ... ok
+test decluttered::deconv::nchw_rectangular_s2 ... ok
+test decluttered::deconv::nchw_rectangular_s3 ... ok
+test decluttered::deconv::nchw_rectangular_same ... ok
+test decluttered::deconv::nchw_rectangular_small ... ok
+test decluttered::deconv::proptest ... ok
+test decluttered::deconv::rank_5_with_group ... ok
+test decluttered::deconv::same_upper_1 ... ok
+test decluttered::deconv::same_upper_dil ... ok
+test decluttered::deconv::same_upper_strides ... ok
+test decluttered::deconv::strides_1 ... ok
+test decluttered::deconv::trivial_0 ... ok
+test optimized::deconv::bias_0 ... ok
+test optimized::deconv::bias_1 ... ok
+test optimized::deconv::bias_2 ... ok
+test optimized::deconv::bias_group_0 ... ok
+test optimized::deconv::channel_0 ... ok
+test optimized::deconv::chw_rectangular_same ... ok
+test optimized::deconv::foo ... ok
+test optimized::deconv::geo_0 ... ok
+test optimized::deconv::group_0 ... ok
+test optimized::deconv::group_1 ... ok
+test optimized::deconv::group_2 ... ok
+test optimized::deconv::group_3 ... ok
+test optimized::deconv::group_4 ... ok
+test optimized::deconv::group_hwio_0 ... ok
+test optimized::deconv::hwc_0 ... ok
+test optimized::deconv::hwio_0 ... ok
+test optimized::deconv::issue_512_simplified ... ok
+test optimized::deconv::issue_optim_2d ... ok
+test optimized::deconv::nchw_2x2_s2_5x6 ... ok
+test optimized::deconv::nchw_2x2_s2_wide ... ok
+test optimized::deconv::nchw_rectangular ... ok
+test optimized::deconv::nchw_rectangular_grouped ... ok
+test optimized::deconv::nchw_rectangular_s2 ... ok
+test optimized::deconv::nchw_rectangular_s3 ... ok
+test optimized::deconv::nchw_rectangular_same ... ok
+test optimized::deconv::nchw_rectangular_small ... ok
+test optimized::deconv::proptest ... ok
+test optimized::deconv::rank_5_with_group ... ok
+test optimized::deconv::same_upper_1 ... ok
+test optimized::deconv::same_upper_dil ... ok
+test optimized::deconv::same_upper_strides ... ok
+test optimized::deconv::strides_1 ... ok
+test optimized::deconv::trivial_0 ... ok
+test raw::deconv::bias_0 ... ok
+test raw::deconv::bias_1 ... ok
+test raw::deconv::bias_2 ... ok
+test raw::deconv::bias_group_0 ... ok
+test raw::deconv::channel_0 ... ok
+test raw::deconv::chw_rectangular_same ... ok
+test raw::deconv::foo ... ok
+test raw::deconv::geo_0 ... ok
+test raw::deconv::group_0 ... ok
+test raw::deconv::group_1 ... ok
+test raw::deconv::group_2 ... ok
+test raw::deconv::group_3 ... ok
+test raw::deconv::group_4 ... ok
+test raw::deconv::group_hwio_0 ... ok
+test raw::deconv::hwc_0 ... ok
+test raw::deconv::hwio_0 ... ok
+test raw::deconv::issue_512_simplified ... ok
+test raw::deconv::issue_optim_2d ... ok
+test raw::deconv::nchw_2x2_s2_5x6 ... ok
+test raw::deconv::nchw_2x2_s2_wide ... ok
+test raw::deconv::nchw_rectangular ... ok
+test raw::deconv::nchw_rectangular_grouped ... ok
+test raw::deconv::nchw_rectangular_s2 ... ok
+test raw::deconv::nchw_rectangular_s3 ... ok
+test raw::deconv::nchw_rectangular_same ... ok
+test raw::deconv::nchw_rectangular_small ... ok
+test raw::deconv::proptest ... ok
+test raw::deconv::rank_5_with_group ... ok
+test raw::deconv::same_upper_1 ... ok
+test raw::deconv::same_upper_dil ... ok
+test raw::deconv::same_upper_strides ... ok
+test raw::deconv::strides_1 ... ok
+test raw::deconv::trivial_0 ... ok
+
+test result: ok. 99 passed; 0 failed; 0 ignored; 0 measured; 774 filtered out; finished in 0.68s
+
+     Running unittests src/main.rs (/home/hosi/churin/results/oss/tract_deconv_locality_20260921/target/release/deps/test_unit_core-de2fc58591d1c253)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

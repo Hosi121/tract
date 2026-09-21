@@ -1,0 +1,412 @@
+{
+  "kind": "tract",
+  "pairs": 6,
+  "control": false,
+  "binaries": {
+    "base": "1bdef1e5963682ea36490d6d3c0913644eecc01dfc7e29a958af2c50ca7479dd",
+    "candidate": "1133e0df7e8f5993b16ed86eaa420ca7e8cdfba47e5f8a5c79c06f456c340f05"
+  },
+  "cases": {
+    "{\"batch\": \"1\", \"model\": \"dcgan64\", \"threads\": 1}": {
+      "fields": {
+        "model": "dcgan64",
+        "batch": "1",
+        "threads": 1
+      },
+      "base": [
+        [
+          3314.98075,
+          3317.39175,
+          3218.65425,
+          3313.67775,
+          3434.402,
+          3151.58625,
+          3433.16875,
+          3346.24625,
+          3381.984
+        ],
+        [
+          3170.9675,
+          3257.5705,
+          3271.8855,
+          3239.32875,
+          3163.104,
+          3165.95475,
+          3456.585,
+          3682.291,
+          4042.0825
+        ],
+        [
+          3345.79875,
+          3156.854,
+          3122.26525,
+          3628.3655,
+          3368.562,
+          3306.98925,
+          3317.90275,
+          3241.30075,
+          3402.81725
+        ],
+        [
+          3306.21675,
+          4196.95525,
+          3842.3465,
+          3651.84425,
+          3319.278,
+          3246.305,
+          3461.40525,
+          3337.87425,
+          3396.76025
+        ],
+        [
+          3440.32975,
+          3202.6015,
+          3320.566,
+          3288.295,
+          4004.11675,
+          3142.2735,
+          3446.349,
+          3244.6235,
+          3221.9905
+        ],
+        [
+          3203.36425,
+          3658.01675,
+          3269.215,
+          3196.0905,
+          3615.64825,
+          3634.96725,
+          3291.40275,
+          3326.35425,
+          3277.42375
+        ]
+      ],
+      "candidate": [
+        [
+          2455.16775,
+          3381.2445,
+          2553.5455,
+          2446.64275,
+          2627.42525,
+          3213.88175,
+          2323.01025,
+          2507.87525,
+          2592.4875
+        ],
+        [
+          2583.20425,
+          2490.8715,
+          2614.06425,
+          2538.45625,
+          2547.17325,
+          2538.75775,
+          2505.94325,
+          2637.78825,
+          2403.95275
+        ],
+        [
+          2551.48375,
+          2476.3175,
+          2517.324,
+          2629.013,
+          2601.38975,
+          2619.188,
+          2504.69675,
+          2374.47925,
+          2547.1535
+        ],
+        [
+          2580.16375,
+          3103.11625,
+          2339.171,
+          2834.5795,
+          2593.20125,
+          2417.175,
+          3070.005,
+          2660.9655,
+          2813.03475
+        ],
+        [
+          2407.26875,
+          2551.03975,
+          2980.1205,
+          2494.23875,
+          2584.5775,
+          2536.0215,
+          2418.56775,
+          2575.01725,
+          2606.09825
+        ],
+        [
+          2742.1115,
+          2663.02825,
+          2566.35,
+          2417.4455,
+          2449.8285,
+          2534.53875,
+          2413.87925,
+          2375.2135,
+          2609.3095
+        ]
+      ],
+      "hash": "4a71b1c87fadd4bf",
+      "base_us": 3304.39725,
+      "base_range_us": [
+        3257.5705,
+        3396.76025
+      ],
+      "candidate_us": 2549.096625,
+      "candidate_range_us": [
+        2534.53875,
+        2660.9655
+      ],
+      "reduction_percent": 22.857440188221922,
+      "paired_reduction_percent": [
+        23.02550640876223,
+        22.06591538080295,
+        23.230013296803232,
+        21.661662756445644,
+        22.4205933470081,
+        22.995180398387895
+      ]
+    },
+    "{\"batch\": \"4\", \"model\": \"dcgan64\", \"threads\": 1}": {
+      "fields": {
+        "model": "dcgan64",
+        "batch": "4",
+        "threads": 1
+      },
+      "base": [
+        [
+          14573.44375,
+          14785.9895,
+          14269.05725,
+          14163.25025,
+          14805.37125,
+          15117.351,
+          14221.888,
+          14221.1575,
+          14728.6985
+        ],
+        [
+          14944.63675,
+          14940.1355,
+          14440.49575,
+          15452.727,
+          15175.03425,
+          14897.27,
+          14680.2575,
+          14732.2055,
+          14689.1225
+        ],
+        [
+          14461.11375,
+          14452.9595,
+          14725.49925,
+          14962.15425,
+          14068.16025,
+          14077.9525,
+          14564.223,
+          14390.863,
+          14220.28625
+        ],
+        [
+          16067.78525,
+          15318.05225,
+          14608.2805,
+          14847.5015,
+          14088.5395,
+          14537.31925,
+          14406.869,
+          14627.8785,
+          14265.32675
+        ],
+        [
+          14268.3765,
+          14516.5205,
+          14386.0485,
+          14409.11025,
+          13857.9335,
+          15327.01525,
+          15103.7125,
+          17272.80425,
+          14946.72975
+        ],
+        [
+          15268.8225,
+          15757.9845,
+          14356.40475,
+          15219.59725,
+          15647.80975,
+          14739.87275,
+          14727.793,
+          14698.073,
+          14919.01375
+        ]
+      ],
+      "candidate": [
+        [
+          11782.522,
+          11859.87075,
+          11406.4795,
+          11646.17825,
+          11543.39275,
+          11997.994,
+          11627.5275,
+          11370.96325,
+          12691.81075
+        ],
+        [
+          11447.8155,
+          11944.19275,
+          12101.44225,
+          12248.41025,
+          11471.10825,
+          13214.7965,
+          11597.0015,
+          11683.18625,
+          11789.1495
+        ],
+        [
+          12107.05325,
+          11944.992,
+          11724.42125,
+          11870.53475,
+          11686.7915,
+          11765.466,
+          11599.2385,
+          12959.98575,
+          11493.60725
+        ],
+        [
+          14007.46525,
+          12067.445,
+          11973.3555,
+          12493.22475,
+          12088.834,
+          12738.39775,
+          11905.41975,
+          12006.79325,
+          11527.1965
+        ],
+        [
+          12160.82675,
+          11598.86025,
+          11676.394,
+          12397.4345,
+          13814.8305,
+          11475.253,
+          11240.3905,
+          11232.79825,
+          12088.008
+        ],
+        [
+          11696.621,
+          11273.186,
+          12354.2465,
+          11739.51575,
+          12076.07,
+          12850.725,
+          11731.778,
+          12041.6035,
+          11673.454
+        ]
+      ],
+      "hash": "bd40f7aa7cb1fe82",
+      "base_us": 14590.862125,
+      "base_range_us": [
+        14452.9595,
+        14919.01375
+      ],
+      "candidate_us": 11752.490875,
+      "candidate_range_us": [
+        11646.17825,
+        12067.445
+      ],
+      "reduction_percent": 19.453074298719685,
+      "paired_reduction_percent": [
+        20.086299094543115,
+        20.863691803934547,
+        18.594762546729616,
+        17.393118238659234,
+        19.564788270026558,
+        21.311717069769443
+      ]
+    }
+  },
+  "runs": [
+    {
+      "variant": "base",
+      "threads": 1,
+      "pair": 0,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "candidate",
+      "threads": 1,
+      "pair": 0,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "candidate",
+      "threads": 1,
+      "pair": 1,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "base",
+      "threads": 1,
+      "pair": 1,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "base",
+      "threads": 1,
+      "pair": 2,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "candidate",
+      "threads": 1,
+      "pair": 2,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "candidate",
+      "threads": 1,
+      "pair": 3,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "base",
+      "threads": 1,
+      "pair": 3,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "base",
+      "threads": 1,
+      "pair": 4,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "candidate",
+      "threads": 1,
+      "pair": 4,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "candidate",
+      "threads": 1,
+      "pair": 5,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    },
+    {
+      "variant": "base",
+      "threads": 1,
+      "pair": 5,
+      "stderr": "batch=1 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 1,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=1 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 1,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=1 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 1,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=1 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 1,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=1 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 1,64,32,32, adjustments: [0, 0], group: 1 }\nbatch=4 deconv0.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([0, 0], [0, 0]), dilations: Some([1, 1]), strides: Some([1, 1]), input_channels: 100, output_channels: 512 }, kernel_format: OIHW, input_shape: 4,100,1,1, adjustments: [0, 0], group: 1 }\nbatch=4 deconv1.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 512, output_channels: 256 }, kernel_format: OIHW, input_shape: 4,512,4,4, adjustments: [0, 0], group: 1 }\nbatch=4 deconv2.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 256, output_channels: 128 }, kernel_format: OIHW, input_shape: 4,256,8,8, adjustments: [0, 0], group: 1 }\nbatch=4 deconv3.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 128, output_channels: 64 }, kernel_format: OIHW, input_shape: 4,128,16,16, adjustments: [0, 0], group: 1 }\nbatch=4 deconv4.deconv_sum DeconvSum { pool_spec: PoolSpec { data_format: NCHW, kernel_shape: [4, 4], padding: Explicit([1, 1], [1, 1]), dilations: Some([1, 1]), strides: Some([2, 2]), input_channels: 64, output_channels: 3 }, kernel_format: OIHW, input_shape: 4,64,32,32, adjustments: [0, 0], group: 1 }"
+    }
+  ],
+  "elapsed_s": 9.222189608000917
+}

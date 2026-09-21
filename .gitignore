@@ -1,0 +1,7 @@
+/tract/
+/target/
+/model_base
+/model_candidate
+/operator_base
+/operator_candidate
+/replay*.json

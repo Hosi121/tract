@@ -1,0 +1,14 @@
+warning: this expression creates a reference which is immediately dereferenced by the compiler
+   --> linalg/src/x86_64/mmm.rs:427:37
+    |
+427 |         (DatumType::I32, _) => Some(&mmm::avx2_mmm_i32_8x8.name.as_str()),
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: change this to: `mmm::avx2_mmm_i32_8x8.name.as_str()`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.97.0/index.html#needless_borrow
+    = note: `#[warn(clippy::needless_borrow)]` on by default
+
+warning: `tract-linalg` (lib) generated 1 warning (run `cargo clippy --fix --lib -p tract-linalg -- ` to apply 1 suggestion)
+warning: `tract-linalg` (lib) generated 1 warning (1 duplicate)
+   Compiling suite-unit v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/suite-unit)
+   Compiling test-unit-core v0.1.0 (/home/hosi/churin/.tools/tract-opt/test-rt/test-unit-core)
+    Finished `release` profile [optimized] target(s) in 3.93s

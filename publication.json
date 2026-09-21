@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-22",
+  "repository": "https://github.com/sonos/tract",
+  "measured_base": "98df95c8f31dd623257e39cb4ce11b12419c27aa",
+  "pr_base": "92a30df48559ba42032ca1c1e424885125e948e5",
+  "candidate_commit": "bb833d97549b68b8739fdb3705bee640f1e8187a",
+  "cpu": "Intel Core Ultra 7 255H",
+  "system": "WSL2 x86-64",
+  "compiler": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "tests_passed": 99,
+  "independent_reference_cases": 5760,
+  "clippy_linux": "Completed with existing warnings outside changed code.",
+  "clippy_workspace": "Stopped at an Apple framework dependency on Linux.",
+  "files_sha256": {
+    ".gitignore": "1268c834345ebcf0f90c8d09020f87907ad457cd26a9f12457ff14a3d153fd12",
+    "Cargo.lock": "6ea107616dd774a1145df18714c550bd8080f26be0f66bfc892161def9a623c1",
+    "Cargo.toml": "8be6e2b38cc10672e69406a5f953740e837eda6393a75dde4a38b0497e53776e",
+    "README.md": "97850f4f8e693ffaa8baa65b681624b228c4820cfbb7212e8b232677aa760804",
+    "audit_edges_unrolled.log": "badae4f52a0b9bb637e7f5c9a8829d4ebd5155ae5cdad9d3067cae3bc47b8eaf",
+    "audit_final_clippy.log": "38296bb152051e8d704c8cc03433347eaffbd83458d4c0150e1b1e073d23965a",
+    "audit_final_tests.log": "58cf5d633a7f0f172a4d2f734d93827a4510ec7a71f6263fb21aafab5777d45e",
+    "audit_unrolled.json": "b93f0bbe9d8a6956b3c37c2a5fe6b47fcd95a03769bf008638f71638ff0b4882",
+    "candidate.patch": "aa38552df7528434380aec002fc29b9629da52d57be15bab5f5bf8e1a9c89db3",
+    "compare.py": "9cb4a901f17ef8d176dbff687ebe7568efc1c9f57b306064f12e8ea5d0aaa0ff",
+    "models.json": "e71b7ad1f902cc6be9c78ff3099414f1233c7f826fac5ea1fff8570629b4a04f",
+    "publish_linux_clippy.log": "744aa134088875637a06033bc6b84e963b17c768f14d2eeaef24a0a0149a5147",
+    "publish_workspace_clippy.log": "07afe6a700345750815e5817aff9c210cfb831223d967eeb1b87858a30c70165",
+    "src/bin/audit_bench.rs": "d83c567293622ce022a0c4f38a565fc4a0e9f3427f9856690217fc66cb9ff492",
+    "src/bin/audit_edges.rs": "141f733bdcddeb1f57baa56fab30aa08232bc5eb2c1b4e262bcd0897a2917a3b",
+    "src/bin/model_bench.rs": "2da060800989a35079b5475d44a02165517757b5971c374db90b02c3a864d7cd"
+  }
+}
